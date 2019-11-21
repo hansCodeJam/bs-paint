@@ -33,6 +33,12 @@
   margin-left: -30px;
 }
 
+#palette {
+  padding: 1rem;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);}
+
 .brush {
   display: flex;
 }
@@ -57,4 +63,40 @@
 
 .square {
   transition: 0.5s;
+}
+
+.color-1{
+  background-color: red;
+}
+.color-2{
+  background-color: blue;
+}
+.color-3{
+  background-color: yellow;
+}
+.color-4{
+  background-color: orange;
+}
+.color-5{
+  background-color: cornflowerblue;
+}
+
+.color-6 {
+  background-color: greenyellow;
+}
+
+.color-7 {
+  background-color: sandybrown;
+}
+
+.color-8 {
+  background-color: slateblue;
+}
+
+.color-9 {
+  background-color: springgreen;
+}
+
+.color-10 {
+  background-color: crimson;
 }
