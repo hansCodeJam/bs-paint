@@ -31,13 +31,17 @@
 .palette {
   display: flex;
   margin-left: -30px;
+  width: 100px;
+  height: auto;
 }
 
 #palette {
-  padding: 1rem;
+  padding: 10px;
   height: 100vh;
   display: grid;
-  grid-template-columns: repeat(9, 1fr);}
+  grid-template-columns: repeat(9, 1fr);
+  
+}
 
 .brush {
   display: flex;
