@@ -1,12 +1,10 @@
 function eventColor(event) {
     const listArray = document.querySelector('.current-brush').classList;
-    const clickArrayEvent = event.target.classList;
-    document.querySelector('.current-brush').classList.replace(`${listArray[1]}`, `${clickArrayEvent[1]}`)
+    document.querySelector('.current-brush').classList.replace(`${listArray[1]}`, `${event.target.classList[1]}`)
 }
 function eventColor1(event) {
     const listArray = document.querySelector('.current-brush').classList;
-    const clickArrayEvent = event.target.classList;
-    event.target.classList.replace(`${clickArrayEvent[1]}`, `${listArray[1]}`)
+    event.target.classList.replace(`${event.target.classList[1]}`, `${listArray[1]}`)
 }
 
 const colorSquare = document.querySelectorAll('.square');
